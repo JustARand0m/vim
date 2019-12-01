@@ -30,8 +30,8 @@ syntax on
 colorscheme dracula
 
 set number 
-set shiftwidth=3
-set tabstop=3
+set shiftwidth=4
+set tabstop=4
 set colorcolumn=110
 
 au VimEnter * silent! !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
